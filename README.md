@@ -1,7 +1,10 @@
 # SciXGen
 Dataset and model in the paper "SciXGen: A Scientific Paper Dataset for Context-Aware Text Generation"
 
-Whole dataset will come soon
+## Labeled reference strings
+The manually labeled reference strings can be found in `labeled_reference_strings/`.
+
+## Extracted papers and text generation data
 
 Extracted paper files can be downloaded here (The original figures are not involved): https://drive.google.com/file/d/1AwWvbvs_v4IR1DN5V72jrIdN0fsk0F57/view?usp=sharing
 
