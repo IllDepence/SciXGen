@@ -1,3 +1,5 @@
+# v1
+
 Annotations initially preserved as Python pickles in the format below.
 
 ```
@@ -39,3 +41,26 @@ Python script `convert.py` recreates the tokenization of reference strings, conv
     ...
 ]
 ```
+
+# v2
+
+Annotations preserved as Python pickles in the format below.
+
+```
+{
+    'input': [
+        '<reference_string_0>',
+        '<reference_string_1>',
+        '<reference_string_2>',
+        ...
+    ]
+    'target': [
+        '<reference_string_0_with_tags>',
+        '<reference_string_1_with_tags>',
+        '<reference_string_2_with_tags>',
+        ...
+    ]
+}
+```
+
+TODO: adjust conversion script
